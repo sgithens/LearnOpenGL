@@ -11,6 +11,8 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
   :serial T
   :components ((:file "package")
                (:file "src/1.getting_started/1.1.hello_window/hello_window")
+               (:file "src/1.getting_started/1.2.hello_window_clear/hello_window_clear")
+               (:file "src/1.getting_started/2.1.hello_triangle/hello_triangle")
                )
   :depends-on (:cl-glfw3
                :cl-opengl
