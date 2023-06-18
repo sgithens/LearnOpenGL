@@ -18,6 +18,8 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2")
                (:file "src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3")
                (:file "src/1.getting_started/3.1.shaders_uniform/shaders_uniform")
+               (:file "src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation")
+
                )
   :depends-on (:cl-glfw3
                :cl-opengl
