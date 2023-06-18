@@ -16,6 +16,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/2.2.hello_triangle_indexed/hello_triangle_indexed")
                (:file "src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1")
                (:file "src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2")
+               (:file "src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3")
                )
   :depends-on (:cl-glfw3
                :cl-opengl
