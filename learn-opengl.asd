@@ -10,6 +10,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
   :source-control (:git "git@github.com:sgithens/LearnOpenGL.git")
   :serial T
   :components ((:file "package")
+               (:file "src/shaders_s")
                (:file "src/1.getting_started/1.1.hello_window/hello_window")
                (:file "src/1.getting_started/1.2.hello_window_clear/hello_window_clear")
                (:file "src/1.getting_started/2.1.hello_triangle/hello_triangle")
@@ -19,6 +20,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3")
                (:file "src/1.getting_started/3.1.shaders_uniform/shaders_uniform")
                (:file "src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation")
+               (:file "src/1.getting_started/3.3.shaders_class/shaders_class")
 
                )
   :depends-on (:cl-glfw3
