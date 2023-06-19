@@ -31,10 +31,8 @@
   (declare (ignore window))
   (gl:viewport 0 0 *scr-width* *scr-height*))
 
-(defun shaders-class ()
-  (uiop:truename* *compile-file-pathname*)
-  *compile-file-pathname* *compile-file-truename*
-  *load-pathname* *load-truename*)
+(defun shaders-class (&key (vertex-shader-file "src/1.getting_started/3.3.shaders_class/3.3.shader.vs")
+                           (fragment-shader-file "src/1.getting_started/3.3.shaders_class/3.3.shader.fs"))
   ;; (with-body-in-main-thread ()
   (cl-glfw3:with-init-window (:title "LearnOpenGL" :width *scr-width* :height *scr-height*
                               :context-version-major 3
@@ -45,10 +43,9 @@
 
     ;; build and compile our shader program
     ;; ------------------------------------
-    (let* ((our-shader (make-shader "3.3.shader.vs" "3.3.shader.fs"
-                                    :source-dir
-                                    (cl-fad:merge-pathnames-as-directory *load-truename*
-                                            "src/1.getting_started/3.3.shaders_class/")))
+    (let* ((our-shader (make-shader vertex-shader-file
+                                    fragment-shader-file
+                                    :source-dir *load-truename*))
            (vao             (gl:gen-vertex-array))
            (vbo             (gl:gen-buffer))
 
