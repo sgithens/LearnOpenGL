@@ -23,6 +23,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/3.3.shaders_class/shaders_class")
                (:file "src/1.getting_started/3.4.shaders_exercise1/shaders_exercise1")
                (:file "src/1.getting_started/3.5.shaders_exercise2/shaders_exercise2")
+               (:file "src/1.getting_started/3.6.shaders_exercise3/shaders_exercise3")
 
                )
   :depends-on (:cl-glfw3
