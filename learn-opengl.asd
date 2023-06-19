@@ -11,6 +11,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
   :serial T
   :components ((:file "package")
                (:file "src/shaders_s")
+               (:file "src/texture-utils")
                (:file "src/1.getting_started/1.1.hello_window/hello_window")
                (:file "src/1.getting_started/1.2.hello_window_clear/hello_window_clear")
                (:file "src/1.getting_started/2.1.hello_triangle/hello_triangle")
@@ -24,6 +25,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/3.4.shaders_exercise1/shaders_exercise1")
                (:file "src/1.getting_started/3.5.shaders_exercise2/shaders_exercise2")
                (:file "src/1.getting_started/3.6.shaders_exercise3/shaders_exercise3")
+               (:file "src/1.getting_started/4.1.textures/textures")
 
                )
   :depends-on (:cl-glfw3
