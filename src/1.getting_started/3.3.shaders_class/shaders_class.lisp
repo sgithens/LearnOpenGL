@@ -32,7 +32,9 @@
   (gl:viewport 0 0 *scr-width* *scr-height*))
 
 (defun shaders-class (&key (vertex-shader-file "src/1.getting_started/3.3.shaders_class/3.3.shader.vs")
-                           (fragment-shader-file "src/1.getting_started/3.3.shaders_class/3.3.shader.fs"))
+                           (fragment-shader-file "src/1.getting_started/3.3.shaders_class/3.3.shader.fs")
+                           ;; Exercise 2 allows specifying an xOffset uniform to nudge the x vertices in the shader
+                           (x-offset nil))
   ;; (with-body-in-main-thread ()
   (cl-glfw3:with-init-window (:title "LearnOpenGL" :width *scr-width* :height *scr-height*
                               :context-version-major 3
@@ -101,6 +103,11 @@
 
               ;; draw our first triangle
               (use our-shader)
+
+              ;; Exercise 2
+              (when x-offset
+                (set-float our-shader "xOffset" x-offset))
+
               (gl:bind-vertex-array vao)
               (gl:draw-arrays :triangles 0 3)
 
