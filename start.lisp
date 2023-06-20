@@ -26,4 +26,6 @@
 ;; (textures)
 ;; (textures-combined)
 ;; (textures-exercise1)
-(textures-exercise2)
+;; (textures-exercise2)
+
+(textures-exercise4)
