@@ -33,6 +33,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/4.6.textures_exercise4/textures_exercise4")
                (:file "src/1.getting_started/5.1.transformations/transformations")
                (:file "src/1.getting_started/5.2.transformations_exercise1/transformations_exercise1")
+               (:file "src/1.getting_started/6.1.coordinate_systems/coordinate_systems")
                )
   :depends-on (:cl-glfw3
                :cl-opengl

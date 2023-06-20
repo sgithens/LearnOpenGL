@@ -28,4 +28,7 @@
 ;; (textures-exercise1)
 ;; (textures-exercise2)
 
-(textures-exercise4)
+;; (textures-exercise4)
+;; (transformations)
+;; (transformations-exercise1)
+(coordinate-systems)

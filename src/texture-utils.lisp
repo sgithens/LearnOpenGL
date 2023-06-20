@@ -34,3 +34,6 @@
         (setf (gl:glaref arr i) (aref data i)))
       arr
     )))
+
+(defun degrees->radians (n)
+  (* n (/ pi 180)))
