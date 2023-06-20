@@ -27,6 +27,8 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/3.6.shaders_exercise3/shaders_exercise3")
                (:file "src/1.getting_started/4.1.textures/textures")
                (:file "src/1.getting_started/4.2.textures_combined/textures_combined")
+               (:file "src/1.getting_started/4.3.textures_exercise1/textures_exercise1")
+               (:file "src/1.getting_started/4.4.textures_exercise2/textures_exercise2")
 
                )
   :depends-on (:cl-glfw3

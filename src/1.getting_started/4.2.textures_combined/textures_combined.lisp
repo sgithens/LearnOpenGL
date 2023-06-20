@@ -32,7 +32,12 @@
   (gl:viewport 0 0 *scr-width* *scr-height*))
 
 (defun textures-combined (&key (vertex-shader-file "src/1.getting_started/4.2.textures_combined/4.2.texture.vs")
-                      (fragment-shader-file "src/1.getting_started/4.2.textures_combined/4.2.texture.fs"))
+                               (fragment-shader-file "src/1.getting_started/4.2.textures_combined/4.2.texture.fs")
+                                          ; positions    ; colors      ; texture coords
+                               (vertices #( 0.5  0.5 0.0   1.0 0.0 0.0   1.0 1.0          ;; top right
+                                            0.5 -0.5 0.0   0.0 1.0 0.0   1.0 0.0          ;; bottom right
+                                           -0.5 -0.5 0.0   0.0 0.0 1.0   0.0 0.0          ;; bottom left
+                                           -0.5  0.5 0.0   1.0 1.0 0.0   0.0 1.0 )))      ;; top left
   ;; (with-body-in-main-thread ()
   (cl-glfw3:with-init-window (:title "LearnOpenGL" :width *scr-width* :height *scr-height*
                               :context-version-major 3
@@ -52,11 +57,7 @@
            (texture1        (gl:gen-texture))
            (texture2        (gl:gen-texture))
 
-                      ; positions    ; colors      ; texture coords
-           (vertices #( 0.5  0.5 0.0   1.0 0.0 0.0   1.0 1.0          ;; top right
-                        0.5 -0.5 0.0   0.0 1.0 0.0   1.0 0.0          ;; bottom right
-                       -0.5 -0.5 0.0   0.0 0.0 1.0   0.0 0.0          ;; bottom left
-                       -0.5  0.5 0.0   1.0 1.0 0.0   0.0 1.0 ))       ;; top left
+
            (arr (gl:alloc-gl-array :float (length vertices)))
 
            (indices #(0 1 3      ;; first triangle
