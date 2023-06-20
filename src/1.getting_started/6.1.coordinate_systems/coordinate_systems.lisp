@@ -148,7 +148,7 @@
 
                 (3d-matrices:nmrotate model 3d-vectors:+vx+ (degrees->radians -55.0))
                 (3d-matrices:nmtranslate view (3d-vectors:vec 0.0 0.0 -3.0))
-                (3d-matrices:nmperspective model (degrees->radians 45.0) (/ *scr-width* *scr-height*) 0.1 100.0)
+                (setq projection (3d-matrices:mperspective 45.0 (/ *scr-width* *scr-height*) 0.1 100.0))
 
                 ;; set the uniforms a few different ways
                 (gl:uniform-matrix-4fv
