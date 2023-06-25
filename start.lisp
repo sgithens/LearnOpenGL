@@ -33,4 +33,5 @@
 ;; (transformations-exercise1)
 ;; (coordinate-systems)
 ;; (coordinate-systems-depth)
-(coordinate-systems-multiple)
+;; (coordinate-systems-multiple)
+(coordinate-systems-exercise3)

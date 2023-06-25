@@ -36,6 +36,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/6.1.coordinate_systems/coordinate_systems")
                (:file "src/1.getting_started/6.2.coordinate_systems_depth/coordinate_systems_depth")
                (:file "src/1.getting_started/6.3.coordinate_systems_multiple/coordinate_systems_multiple")
+               (:file "src/1.getting_started/6.4.coordinate_systems_exercise3/coordinate_systems_exercise3")
                )
   :depends-on (:cl-glfw3
                :cl-opengl
