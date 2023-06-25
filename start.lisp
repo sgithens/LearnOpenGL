@@ -34,4 +34,4 @@
 ;; (coordinate-systems)
 ;; (coordinate-systems-depth)
 ;; (coordinate-systems-multiple)
-(coordinate-systems-exercise3)
+(camera-circle)
