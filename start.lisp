@@ -35,4 +35,5 @@
 ;; (coordinate-systems-depth)
 ;; (coordinate-systems-multiple)
 ;; (camera-circle)
-(camera-keyboard-dt)
+;; (camera-keyboard-dt)
+(camera-mouse-zoom)
