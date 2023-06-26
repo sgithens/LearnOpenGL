@@ -34,4 +34,5 @@
 ;; (coordinate-systems)
 ;; (coordinate-systems-depth)
 ;; (coordinate-systems-multiple)
-(camera-circle)
+;; (camera-circle)
+(camera-keyboard-dt)
