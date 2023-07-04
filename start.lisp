@@ -36,4 +36,5 @@
 ;; (coordinate-systems-multiple)
 ;; (camera-circle)
 ;; (camera-keyboard-dt)
-(camera-mouse-zoom)
+;; (camera-mouse-zoom)
+(camera-class)

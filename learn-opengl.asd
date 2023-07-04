@@ -11,6 +11,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
   :serial T
   :components ((:file "package")
                (:file "src/shaders_s")
+               (:file "src/camera")
                (:file "src/texture-utils")
                (:file "src/1.getting_started/1.1.hello_window/hello_window")
                (:file "src/1.getting_started/1.2.hello_window_clear/hello_window_clear")
@@ -40,6 +41,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/7.1.camera_circle/camera_circle")
                (:file "src/1.getting_started/7.2.camera_keyboard_dt/camera_keyboard_dt")
                (:file "src/1.getting_started/7.3.camera_mouse_zoom/camera_mouse_zoom")
+               (:file "src/1.getting_started/7.4.camera_class/camera_class")
                )
   :depends-on (:cl-glfw3
                :cl-opengl
