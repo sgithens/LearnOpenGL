@@ -38,4 +38,5 @@
 ;; (camera-keyboard-dt)
 ;; (camera-mouse-zoom)
 ;; (camera-class)
-(colors)
+;; (colors)
+(basic-lighting-diffuse)
