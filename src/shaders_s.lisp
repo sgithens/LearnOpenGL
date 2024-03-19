@@ -41,6 +41,9 @@
 (defmethod set-float ((self shader) name value)
   (gl:uniformf (gl:get-uniform-location (id self) name) value))
 
+(defmethod set-vec3 ((self shader) name value)
+  (gl:uniformfv (gl:get-uniform-location (id self) name) value))
+
 (defmethod set-mat4 ((self shader) name value)
   (gl:uniform-matrix-4fv (gl:get-uniform-location (id self) name)
           (3d-matrices:marr4 value) t))

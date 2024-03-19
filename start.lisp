@@ -37,4 +37,5 @@
 ;; (camera-circle)
 ;; (camera-keyboard-dt)
 ;; (camera-mouse-zoom)
-(camera-class)
+;; (camera-class)
+(colors)

@@ -42,6 +42,8 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
                (:file "src/1.getting_started/7.2.camera_keyboard_dt/camera_keyboard_dt")
                (:file "src/1.getting_started/7.3.camera_mouse_zoom/camera_mouse_zoom")
                (:file "src/1.getting_started/7.4.camera_class/camera_class")
+
+               (:file "src/2.lighting/1.colors/colors")
                )
   :depends-on (:cl-glfw3
                :cl-opengl
