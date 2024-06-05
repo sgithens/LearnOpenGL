@@ -39,4 +39,5 @@
 ;; (camera-mouse-zoom)
 ;; (camera-class)
 ;; (colors)
-(basic-lighting-diffuse)
+;; (basic-lighting-diffuse)
+(basic-lighting-specular)

@@ -45,6 +45,7 @@ Learning OpenGL. This code is derived from the C++ versions in repo JoeyDeVries:
 
                (:file "src/2.lighting/1.colors/colors")
                (:file "src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse")
+               (:file "src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular")
                )
   :depends-on (:cl-glfw3
                :cl-opengl
