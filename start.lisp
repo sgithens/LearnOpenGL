@@ -40,4 +40,5 @@
 ;; (camera-class)
 ;; (colors)
 ;; (basic-lighting-diffuse)
-(basic-lighting-specular)
+;; (basic-lighting-specular)
+(basic-lighting-exercise1)
